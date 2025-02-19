@@ -21,13 +21,11 @@
     <div class="navbar navbar-expand-md bg-dark navbar-dark">
         <div class="container">
             <a href="https://discord.gg/hYrZjg4VRH" class="navbar-brand text-info">
-                <img src="./img/Aze’s (2).gif" alt="Aze's Domain Logo" style="width: 50px; height: 50px; margin-right: 8px;">
+                <img src="./img/Aze’s (2).gif" alt="Aze's Domain Logo" class="img-fluid" style="width: 50px; height: 50px; margin-right: 8px;">
                 <span style="color: rgb(255, 255, 255); font-weight: bold; font-size:xx-large;">Aze's Domain</span>
-                
             </a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenu"><span
-                    class="navbar-toggler-icon"></span></button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenu"><span class="navbar-toggler-icon"></span></button>
 
             <div class="collapse navbar-collapse" id="mainmenu">
                 <ul class="navbar-nav mx-auto">
@@ -35,18 +33,16 @@
                     <li class="nav-item"><a href="#Statics" class="nav-link">Discord Stats</a></li>
                     <li class="nav-item"><a href="#FAQ" class="nav-link">Ask me</a></li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="linksdrop" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">Links</a>
+                        <a class="nav-link dropdown-toggle" href="#" id="linksdrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">Links</a>
                         <ul class="dropdown-menu bg-dark" aria-labelledby="linksdrop">
-                            <li><a class="dropdown-item text-muted" href="https://discord.gg/hYrZjg4VRH">Discord</a></li>
-                            <li><a class="dropdown-item text-muted" href="https://discord.com/channels/1258953167589343275/1322411402136391762">Support Server</a></li>
+                            <li><a class="dropdown-item text-muted" href="https://guns.lol/azey.aze">Discord</a></li>
+                            <li><a class="dropdown-item text-muted" href="https://discord.gg/hYrZjg4VRH">Support Server</a></li>
                         </ul>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
-
 
     <!-- Info -->
     <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
@@ -59,46 +55,30 @@
     </script>
     <section class="bg-dark text-light text-center py-5">
         <div class="container">
-            <div class="d-flex">
-                <div>
+            <div class="row">
+                <div class="col-md-6">
                     <h1><span class="custom-span">Aze’s</span> Domain</h1>
                     <p>We’re glad to have you here. This server is a space to connect, collaborate, and enjoy meaningful conversations.</p>
-
                     <p> Here’s what to do next:</p>
-                        
-                        <p>  Check the rules to ensure a respectful and enjoyable environment.
+                    <p>  Check the rules to ensure a respectful and enjoyable environment.
                         Introduce yourself in the introductions channel.
                         Explore the server and join the discussions.
                         Let’s make this community a positive and engaging place for everyone. Welcome aboard!</p>
-                        
-                        <button class="button-49" role="button" onclick="window.location.href='https://discord.gg/hYrZjg4VRH'" style="font-family: 'Arial', sans-serif; font-weight: bold;"> Click to join</button>
-
-                    <script>
-                        document.querySelector('.button-53').addEventListener('mouseover', function() {
-                            this.style.backgroundColor = '#5b6eae';
-                        });
-                        document.querySelector('.button-53').addEventListener('mouseout', function() {
-                            this.style.backgroundColor = '#7289da';
-                        });
-                    </script>
-                     
+                    <button class="button-49" role="button" onclick="window.location.href='https://discord.gg/hYrZjg4VRH'" style="font-family: 'Arial', sans-serif; font-weight: bold;"> Click to join</button>
                 </div>
-                <img class="img-fluid w-50" src="./img/Aze’s (2).gif" alt="Aze's Domain Logo">
+                <div class="col-md-6">
+                    <img class="img-fluid w-100" src="./img/Aze’s (2).gif" alt="Aze's Domain Logo">
+                </div>
             </div>
         </div>
     </section>
 
-
     <!-- Features -->
-
-
-    <section  id="Features" class="py-5">
+    <section id="Features" class="py-5">
         <div class="container">
-            <h2 class="text-center mb-4">
-                Discord Features
-            </h2>
+            <h2 class="text-center mb-4">Discord Features</h2>
             <div class="row text-center">
-                <div class="col-sm">
+                <div class="col-sm-12 col-md-4">
                     <div class="card bg-dark text-light mb-3">
                         <div class="h1 mt-3">
                             <i class="bi bi-clock-history" style="color: rgb(176, 255, 235);"></i>
@@ -109,7 +89,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm">
+                <div class="col-sm-12 col-md-4">
                     <div class="card bg-dark text-light mb-3">
                         <div class="h1 mt-3">
                             <i class="bi bi-capslock-fill" style="color: rgb(176, 255, 235);"></i>
@@ -120,15 +100,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm">
+                <div class="col-sm-12 col-md-4">
                     <div class="card bg-dark text-light mb-3">
                         <div class="h1 mt-3">
                             <i class="bi bi-folder2-open" style="color: rgb(176, 255, 235);"></i>
                         </div>
                         <div class="card-body text-center">
                             <h4 class="card-title text-info">Many Channels</h4>
-                            <p class="card-text">Our Discord server has something for everyone—plenty of channels for gaming, chatting, memes, and more! Jump in and find your spot!
-                            </p>
+                            <p class="card-text">Our Discord server has something for everyone—plenty of channels for gaming, chatting, memes, and more! Jump in and find your spot!</p>
                         </div>
                     </div>
                 </div>
@@ -136,39 +115,28 @@
         </div>
     </section>
 
-
     <!-- Statics -->
     <section id="Statics" class="py-5 bg-dark text-light">
         <div class="container">
             <div class="py-2 text-center">
                 <h2>Discord statistics:</h2>
             </div>
-            <div class="row align-items-center justify-content-center text-center -5">
-                <div class="col">
-                    <widgetbot
-    server="1258953167589343275"
-    channel="1311525581120208986"
-    width="800"
-    height="600"
-></widgetbot>
-<script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
-
+            <div class="row align-items-center justify-content-center text-center">
+                <div class="col-12 col-md-6">
+                    <widgetbot server="1258953167589343275" channel="1311525581120208986" width="100%" height="600"></widgetbot>
+                    <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
                 </div>
-                <div class="col-sm p-5 h1">
-                    <iframe src="https://discord.com/widget?id=1258953167589343275&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" 
-                    sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                <div class="col-12 col-md-6 p-5 h1">
+                    <iframe src="https://discord.com/widget?id=1258953167589343275&theme=dark" width="100%" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
                 </div>
             </div>
         </div>
-        
     </section>
-    <!-- FAQ -->
 
+    <!-- FAQ -->
     <section id="FAQ" class="py-5">
         <div class="container">
-            <h2 class="text-center mb-3">
-                Frequently Asked Questions
-            </h2>
+            <h2 class="text-center mb-3">Frequently Asked Questions</h2>
             <div class="accordion accordion-flush" id="your-faq">
                 <div class="accordion-item">
                     <h5 class="accordion-header" id="qusetion-1">
@@ -199,54 +167,58 @@
                     <div class="accordion-collapse collapse p-3" id="answer-3" data-bs-parent="#your-faq">
                         You can reach out to any moderator or admin in the server. Their names will usually appear at the top of the member list. Feel free to ask them anything!
                     </div>
-                    <div class="accordion-item">
-                        <h5 class="accordion-header" id="qusetion-4">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#answer-4">
-                                If you have any questions, here is the link below!
-                            </button>
-                        </h5>
-                        <div class="accordion-collapse collapse p-3" id="answer-4" data-bs-parent="#your-faq">
-                            <button class="button-53" role="button" onclick="window.location.href=' https://guns.lol/azey.aze'"> CLick here</button>
-                        </div>
+                </div>
+                <div class="accordion-item">
+                    <h5 class="accordion-header" id="qusetion-4">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#answer-4">
+                            If you have any questions, here is the link below!
+                        </button>
+                    </h5>
+                    <div class="accordion-collapse collapse p-3" id="answer-4" data-bs-parent="#your-faq">
+                        <button class="button-53" role="button" onclick="window.location.href=' https://guns.lol/azey.aze'"> Click here</button>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-   
 
     <!-- footer -->
-
     <div class="footer-clean bg-dark">
-    <footer>
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-sm-4 col-md-3 item">
-                    <h3>Quick access</h3>
-                    <ul>
-                        <li><a href="#Features">Features</a></li>
-                        <li><a href="#Statics">Statics</a></li>
-                        <li><a href="#FAQ">Ask me</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-4 col-md-3 item">
-                    <h3>About</h3>
-                    <ul>
-                        <li><a href="https://discord.com/channels/1258953167589343275/1322411402136391762">Team</a></li>
-                        <li><a href="#">Developer</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-4 col-md-3 item">
-                    <h3>Links</h3>
-                    <ul>
-                        <li><a href="https://discord.gg/hYrZjg4VRH">Support server</a></li>
-                        <li><a href="https://discord.gg/hYrZjg4VRH">Invite</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 item social"><a href="https://discord.gg/hYrZjg4VRH"><ion-icon name="logo-discord"></ion-icon></a><a href="#"><ion-icon name="logo-facebook"></ion-icon></a><a href="#"><ion-icon name="logo-twitter"></ion-icon></a><a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+        <footer>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Quick access</h3>
+                        <ul>
+                            <li><a href="#Features">Features</a></li>
+                            <li><a href="#Statics">Statics</a></li>
+                            <li><a href="#FAQ">Ask me</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="https://discord.com/channels/1258953167589343275/1322411402136391762">Team</a></li>
+                            <li><a href="#">Developer</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Links</h3>
+                        <ul>
+                            <li><a href="https://discord.gg/hYrZjg4VRH">Support server</a></li>
+                            <li><a href="https://discord.gg/hYrZjg4VRH">Invite</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 item social">
+                        <a href="https://discord.gg/hYrZjg4VRH"><ion-icon name="logo-discord"></ion-icon></a>
+                        <a href="https://guns.lol/azey.aze"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="https://guns.lol/azey.aze"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="https://guns.lol/azey.aze"><ion-icon name="logo-instagram"></ion-icon></a>
+                    </div>
                 </div>
             </div>
-    </footer>
-</div>
+        </footer>
+    </div>
 
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
